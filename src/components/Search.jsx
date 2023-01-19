@@ -17,7 +17,6 @@ const Search = ({ hideButtons = false }) => {
   const search = (e) => {
     e.preventDefault();
 
-    console.log("ali sent the form");
     navigate(`/search?q=${value}`);
   };
 
